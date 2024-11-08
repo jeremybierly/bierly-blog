@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "@nuxt/content": "^2.12.1",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@fontsource-variable/raleway": "^5.0.17",
+    "@fontsource/libre-baskerville": "^5.0.8"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^0.58.5",
+    "@iconify-json/carbon": "^1.1.31"
+  }
+}
